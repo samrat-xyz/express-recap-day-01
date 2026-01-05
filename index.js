@@ -4,7 +4,7 @@ const port = process.env.PORT || 3030
 const app = express();
 
 app.get('/', (req,res)=>{
-    res.send('express-recap-01-basics server successfully running......')
+    res.send('express-recap-01 server successfully running......')
 })
 
 app.listen(port,()=>{
